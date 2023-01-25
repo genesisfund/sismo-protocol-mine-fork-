@@ -18,3 +18,4 @@ jobs:
         run: yarn test
       - name: deploy local script
         run: npx concurrently --kill-others -s command-1  "npx hardhat node" "sleep 2 & npx yarn deploy:local"
+12312312
